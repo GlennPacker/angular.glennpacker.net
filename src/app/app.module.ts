@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListCardComponent } from './components/list-card/list-card.component';
+import { ClientsComponent } from './clients/clients.component';
 import { FrontEndComponent } from './front-end/front-end.component';
 
 @NgModule({
@@ -17,7 +18,7 @@ import { FrontEndComponent } from './front-end/front-end.component';
         HttpClientModule,
         AppRoutingModule
     ],
-    declarations: [AppComponent, ListCardComponent, FrontEndComponent],
+    declarations: [AppComponent, ListCardComponent, ClientsComponent, FrontEndComponent],
     providers: [],
     bootstrap: [AppComponent]
 })
