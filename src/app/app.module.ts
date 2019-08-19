@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListCardComponent } from './components/list-card/list-card.component';
 import { ClientsComponent } from './clients/clients.component';
+import { FrontEndComponent } from './front-end/front-end.component';
 
 @NgModule({
     imports: [
@@ -17,7 +18,7 @@ import { ClientsComponent } from './clients/clients.component';
         HttpClientModule,
         AppRoutingModule
     ],
-    declarations: [AppComponent, ListCardComponent, ClientsComponent],
+    declarations: [AppComponent, ListCardComponent, ClientsComponent, FrontEndComponent],
     providers: [],
     bootstrap: [AppComponent]
 })
