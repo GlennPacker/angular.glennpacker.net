@@ -4,7 +4,7 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout.component';
-import { SidebarComponent } from '../sidebar/sidebar.component';
+import { SidebarComponent } from '../components/sidebar/sidebar.component';
 
 @NgModule({
     imports: [
