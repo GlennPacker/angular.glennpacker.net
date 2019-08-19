@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListCardComponent } from './components/list-card/list-card.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @NgModule({
     imports: [
@@ -16,7 +17,7 @@ import { ListCardComponent } from './components/list-card/list-card.component';
         HttpClientModule,
         AppRoutingModule
     ],
-    declarations: [AppComponent, ListCardComponent],
+    declarations: [AppComponent, ListCardComponent, ClientsComponent],
     providers: [],
     bootstrap: [AppComponent]
 })
