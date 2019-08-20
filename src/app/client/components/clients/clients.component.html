@@ -1,1 +1,10 @@
-<p>clients works!</p>
+<h3>Clients</h3>
+<div *ngIf="error" class="alert alert-danger" role="alert">
+    Oops something went wrong
+</div>
+
+<div *ngFor="let client of clients">
+    <div>
+        {{client | json}}
+    </div>
+</div>

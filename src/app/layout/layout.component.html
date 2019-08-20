@@ -1,5 +1,9 @@
-<!-- <app-header></app-header> -->
 <app-sidebar (collapsedEvent)="receiveCollapsed($event)"></app-sidebar>
 <section class="main-container" [ngClass]="{collapsed: collapedSideBar}">
-    <router-outlet></router-outlet>
+    <div class="container">
+        <a [routerLink]="['/home']">
+            <img src="assets/glenn-packer-net-logo.png" />
+        </a>
+        <router-outlet></router-outlet>
+    </div>
 </section>

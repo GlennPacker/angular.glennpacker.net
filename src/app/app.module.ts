@@ -8,13 +8,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListCardComponent } from './components/list-card/list-card.component';
 
+// NgRx
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
 @NgModule({
     imports: [
         CommonModule,
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        StoreModule.forRoot({}),
+        EffectsModule.forRoot([])
     ],
     declarations: [AppComponent, ListCardComponent],
     providers: [],
