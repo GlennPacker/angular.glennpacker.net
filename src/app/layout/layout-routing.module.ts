@@ -10,8 +10,8 @@ const routes: Routes = [
             { path: '', redirectTo: 'home', pathMatch: 'prefix' },
             { path: 'home', loadChildren: () => import('../home/home.module').then(m => m.HomeModule) },
             { path: 'back-end', loadChildren: () => import('../back-end/back-end.module').then(m => m.BackEndModule) },
-            { path: 'client',  loadChildren: () => import('../client/client.module').then(m => m.ClientModule) },
-            { path: 'contact',  loadChildren: () => import('../contact/contact.module').then(m => m.ContactModule) },
+            { path: 'clients', loadChildren: () => import('../client/client.module').then(m => m.ClientModule) },
+            { path: 'contact', loadChildren: () => import('../contact/contact.module').then(m => m.ContactModule) },
             { path: 'front-end', loadChildren: () => import('../front-end/front-end.module').then(m => m.FrontEndModule) },
             { path: 'spa', loadChildren: () => import('../spa/spa-routing.module').then(m => m.SpaRoutingModule) },
         ]

@@ -1,13 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ClientsComponent } from './components/clients/clients.component';
 import { ClientRoutingModule } from './client-routing.module';
 
+// Components
+import { ClientsComponent } from './components/clients/clients.component';
+import { ClientsContainerComponent } from './containers/clients-container/clients-container.component';
+
+// NgRx
+import { reducer } from './state/client.reducer';
+import { StoreModule } from '@ngrx/store';
+import { ClientEffects } from './state/client.effects';
+import { EffectsModule } from '@ngrx/effects';
+
+
 @NgModule({
-  declarations: [ClientsComponent],
+  declarations: [
+    ClientsComponent,
+    ClientsContainerComponent
+  ],
   imports: [
     CommonModule,
-    ClientRoutingModule
+    ClientRoutingModule,
+    StoreModule.forFeature('clients', reducer),
+    EffectsModule.forFeature([ClientEffects])
   ]
 })
 export class ClientModule { }
