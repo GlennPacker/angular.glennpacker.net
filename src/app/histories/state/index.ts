@@ -1,19 +1,19 @@
 import * as fromRoot from '../../state/app.state';
 import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { ClientState } from './client.reducer';
+import { HistoryState } from './history.reducer';
 
 export interface State extends fromRoot.State {
-    cleints: ClientState;
+    cleints: HistoryState;
 }
 
-const getClientFeatureState = createFeatureSelector<ClientState>('clients');
+const getHistoryFeatureState = createFeatureSelector<HistoryState>('history');
 
-export const getClients = createSelector(
-    getClientFeatureState,
+export const getHistories = createSelector(
+    getHistoryFeatureState,
     state => state.list
 );
 
 export const getError = createSelector(
-    getClientFeatureState,
+    getHistoryFeatureState,
     state => state.error
 );

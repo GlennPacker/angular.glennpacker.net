@@ -11,6 +11,7 @@ import { ListCardComponent } from './components/list-card/list-card.component';
 // NgRx
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
+
 @NgModule({
     imports: [
         CommonModule,

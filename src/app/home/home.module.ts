@@ -1,9 +1,10 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbCarouselModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { HistoriesModule } from '../histories/histories.module';
 
 @NgModule({
     imports: [
@@ -11,6 +12,7 @@ import { HomeComponent } from './home.component';
         NgbCarouselModule,
         NgbAlertModule,
         HomeRoutingModule,
+        HistoriesModule
     ],
     declarations: [
         HomeComponent
