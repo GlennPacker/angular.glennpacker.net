@@ -5,19 +5,19 @@ import { Observable, of, throwError } from 'rxjs';
 import { fromFetch } from 'rxjs/fetch';
 import { map, catchError } from 'rxjs/operators';
 
-import { Client } from './client';
+import { History } from './history';
 import { debug } from 'util';
 
 @Injectable({
     providedIn: 'root',
 })
-export class ClientService {
+export class HistoryService {
     constructor(private http: HttpClient) { }
 
-    getClients() {
-        return this.http.get<Client[]>('assets/clients.json').pipe(
-            map((clients: Client[]) => {
-                return clients;
+    getHistories() {
+        return this.http.get<History[]>('assets/history.json').pipe(
+            map((histories: History[]) => {
+                return histories;
             }),
             catchError(err => this.handleError(err))
         );

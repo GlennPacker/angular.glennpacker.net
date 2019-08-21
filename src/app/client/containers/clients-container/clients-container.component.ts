@@ -4,7 +4,6 @@ import * as fromClient from '../../state';
 import * as clientActions from '../../state/client.actions';
 import { Observable } from 'rxjs';
 import { Client } from '../../client';
-import { ClientsComponent } from '../../components/clients/clients.component';
 
 @Component({
   selector: 'app-clients-container',
