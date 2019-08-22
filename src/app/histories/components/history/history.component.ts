@@ -8,9 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HistoryComponent implements OnInit {
   @Input() histories: History[];
   @Input() error: string;
+  years: number;
 
   constructor() { }
 
   ngOnInit() {
+    this.years = (new Date()).getFullYear() - 1991;
   }
 }

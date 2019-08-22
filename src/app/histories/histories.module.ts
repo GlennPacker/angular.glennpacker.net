@@ -9,11 +9,13 @@ import { StoreModule } from '@ngrx/store';
 import { HistoryEffects } from './state/history.effects';
 import { EffectsModule } from '@ngrx/effects';
 import { ComponentsModule } from '../components/components.module';
+import { HistoryItemComponent } from './components/history-item/history-item.component';
 
 @NgModule({
   declarations: [
     HistoryComponent,
-    HistoryContainerComponent
+    HistoryContainerComponent,
+    HistoryItemComponent
   ],
   imports: [
     CommonModule,
