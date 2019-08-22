@@ -12,12 +12,16 @@ import { StoreModule } from '@ngrx/store';
 import { ClientEffects } from './state/client.effects';
 import { EffectsModule } from '@ngrx/effects';
 import { ComponentsModule } from '../components/components.module';
+import { ClientPanelContainerComponent } from './containers/client-panel-container/client-panel-container.component';
+import { ClientPanelComponent } from './components/client-panel/client-panel.component';
 
 
 @NgModule({
   declarations: [
     ClientsComponent,
-    ClientsContainerComponent
+    ClientsContainerComponent,
+    ClientPanelContainerComponent,
+    ClientPanelComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +29,9 @@ import { ComponentsModule } from '../components/components.module';
     StoreModule.forFeature('clients', reducer),
     EffectsModule.forFeature([ClientEffects]),
     ComponentsModule
+  ],
+  exports: [
+    ClientPanelContainerComponent
   ]
 })
 export class ClientModule { }
