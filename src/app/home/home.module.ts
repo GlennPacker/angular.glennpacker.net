@@ -6,6 +6,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HistoriesModule } from '../histories/histories.module';
 import { ComponentsModule } from '../components/components.module';
+import { ClientModule } from '../client/client.module';
 
 @NgModule({
     imports: [
@@ -14,7 +15,8 @@ import { ComponentsModule } from '../components/components.module';
         NgbAlertModule,
         HomeRoutingModule,
         HistoriesModule,
-        ComponentsModule
+        ComponentsModule,
+        ClientModule
     ],
     declarations: [
         HomeComponent
