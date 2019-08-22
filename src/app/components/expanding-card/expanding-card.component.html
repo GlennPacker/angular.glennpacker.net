@@ -1,0 +1,13 @@
+<div class="card " (click)="toggleAdditional()">
+  <div class="card-header text-white bg-{{colour}} mb-3">
+    {{title}}
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <ng-content select="[summary]"></ng-content>
+    </p>
+    <p class="card-text" *ngIf="showAdditional">
+      <ng-content select="[additional]"></ng-content>
+    </p>
+  </div>
+</div>
