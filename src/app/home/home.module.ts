@@ -5,6 +5,7 @@ import { NgbCarouselModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HistoriesModule } from '../histories/histories.module';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
     imports: [
@@ -12,7 +13,8 @@ import { HistoriesModule } from '../histories/histories.module';
         NgbCarouselModule,
         NgbAlertModule,
         HomeRoutingModule,
-        HistoriesModule
+        HistoriesModule,
+        ComponentsModule
     ],
     declarations: [
         HomeComponent

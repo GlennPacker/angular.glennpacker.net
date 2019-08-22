@@ -11,6 +11,7 @@ import { reducer } from './state/client.reducer';
 import { StoreModule } from '@ngrx/store';
 import { ClientEffects } from './state/client.effects';
 import { EffectsModule } from '@ngrx/effects';
+import { ComponentsModule } from '../components/components.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { EffectsModule } from '@ngrx/effects';
     CommonModule,
     ClientRoutingModule,
     StoreModule.forFeature('clients', reducer),
-    EffectsModule.forFeature([ClientEffects])
+    EffectsModule.forFeature([ClientEffects]),
+    ComponentsModule
   ]
 })
 export class ClientModule { }

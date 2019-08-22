@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListCardComponent } from './components/list-card/list-card.component';
 
 // NgRx
 import { StoreModule } from '@ngrx/store';
@@ -22,7 +21,7 @@ import { EffectsModule } from '@ngrx/effects';
         StoreModule.forRoot({}),
         EffectsModule.forRoot([])
     ],
-    declarations: [AppComponent, ListCardComponent],
+    declarations: [AppComponent],
     providers: [],
     bootstrap: [AppComponent]
 })

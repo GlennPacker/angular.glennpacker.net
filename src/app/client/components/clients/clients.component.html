@@ -3,6 +3,16 @@
     Oops something went wrong
 </div>
 
+<app-expanding-card title="title" colour="primary">
+    <div summary>
+        summary
+    </div>
+
+    <div additional>
+        body
+    </div>
+</app-expanding-card>
+
 <div *ngFor="let client of clients">
     <div>
         {{client | json}}
