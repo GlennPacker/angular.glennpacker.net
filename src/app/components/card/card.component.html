@@ -2,7 +2,8 @@
   <div class="card-header text-white bg-{{colour}} mb-3">
     {{title}}
   </div>
-  <div class="card-body">
+
+  <div class="card-body" [ngStyle]="{'min-height.px': minHeight}">
     <ng-content></ng-content>
   </div>
 </div>
