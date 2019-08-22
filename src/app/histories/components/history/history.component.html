@@ -1,5 +1,7 @@
 <app-card title="History" colour="success">
+    <p>With over {{years}} years experience in the IT industry from support, training and development.</p>
     <div *ngFor="let history of histories">
-        {{history | json}}
+        <app-history-item [history]="history">
+        </app-history-item>
     </div>
 </app-card>
