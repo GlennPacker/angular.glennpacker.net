@@ -1,3 +1,5 @@
-<div *ngFor="let history of histories">
-    {{history | json}}
-</div>
+<app-card title="History" colour="success">
+    <div *ngFor="let history of histories">
+        {{history | json}}
+    </div>
+</app-card>

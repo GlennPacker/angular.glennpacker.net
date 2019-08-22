@@ -8,6 +8,7 @@ import { reducer } from './state/history.reducer';
 import { StoreModule } from '@ngrx/store';
 import { HistoryEffects } from './state/history.effects';
 import { EffectsModule } from '@ngrx/effects';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { EffectsModule } from '@ngrx/effects';
   ],
   imports: [
     CommonModule,
+    ComponentsModule,
     StoreModule.forFeature('history', reducer),
     EffectsModule.forFeature([HistoryEffects])
   ],
