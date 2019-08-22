@@ -1,5 +1,5 @@
 <p (click)="toggleDetail()"><span class="year-bullet">{{history.year}}</span> <span>{{history.title}}</span></p>
-<div *ngIf="showDetail && history.details" class="pb-3">
+<div *ngIf="showDetail && history.details">
     <p *ngIf="history.details.summary">{{history.details.summary}}</p>
     <p>{{history.details.title}}</p>
     <ul>
