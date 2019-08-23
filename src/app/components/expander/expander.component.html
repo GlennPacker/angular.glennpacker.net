@@ -1,0 +1,13 @@
+<span (click)="toggleAdditional()" class="mouse-pointer">
+    <span class="pr-2">
+        <ng-content select="[text]"></ng-content>
+    </span>
+    <span>
+        <i *ngIf="showAdditional" class="fa fa-chevron-up"></i>
+        <i *ngIf="!showAdditional" class="fa fa-chevron-down"></i>
+    </span>
+</span>
+<br />
+<div (click)="toggleAdditional()" *ngIf="showAdditional" class="mouse-pointer">
+    <ng-content select=[fullText]></ng-content>
+</div>

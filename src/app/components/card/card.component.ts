@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 export class CardComponent {
   @Input() title: string;
   @Input() colour: string;
-  @Input() minHeight = 524;
+  @Input() minHeight = 480;
 }
