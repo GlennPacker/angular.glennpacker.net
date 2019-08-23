@@ -1,7 +1,10 @@
 <app-card title="Clients" colour="info">
-    Previous clients in recent years:
+    <div class="pb-3">
+        Previous clients in recent years:
+    </div>
 
     <div *ngFor="let client of clients">
-        {{client | json}}
+        <app-client-panel-item [client]="client">
+        </app-client-panel-item>
     </div>
 </app-card>
