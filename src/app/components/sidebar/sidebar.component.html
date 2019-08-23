@@ -1,66 +1,66 @@
 <nav class="sidebar" [ngClass]="{sidebarPushRight: isActive, collapsed: collapsed}">
     <div class="list-group">
         <a [routerLink]="['/clients']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-desktop"></i>&nbsp;
-            <span>Clients</span>
+            <i class="fa fa-fw fa-desktop"></i>
+            <span class="pl-2">Clients</span>
         </a>
         <a [routerLink]="['/back-end']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-wrench"></i>&nbsp;
-            <span>Back-end</span>
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="pl-2">Back-end</span>
         </a>
         <a [routerLink]="['/front-end']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-wrench"></i>&nbsp;
-            <span>Front-end</span>
+            <i class="fa fa-fw fa-car"></i>
+            <span class="pl-2">Front-end</span>
         </a>
         <a [routerLink]="['/spa']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-wrench"></i>&nbsp;
-            <span>SPA</span>
+            <i class="fa fa-fw fa-bath"></i>
+            <span class="pl-2">SPA</span>
         </a>
         <div class="nested-menu">
             <a class="list-group-item" (click)="addExpandClass('pages')">
-                <i class="fa fa-plus"></i>&nbsp;
-                <span>Angular</span>
+                <i class="fa fa-plus"></i>
+                <span class="pl-2">Angular</span>
             </a>
             <li class="nested" [class.expand]="showMenu === 'pages'">
                 <ul class="submenu">
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/module']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-th-large"></i>
                             <span class="pl-2">Module</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/component']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-stop"></i>
                             <span class="pl-2">Component</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/directive']" [routerLinkActive]="['router-link-active']">
                             <i class="far fa-square"></i>
                             <span class="pl-2">Directive</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/routing']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-map-signs"></i>
                             <span class="pl-2">Routing</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/content-projection']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-cog"></i>
                             <span class="pl-2">Content Projection</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/rxjs']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-server"></i>
                             <span class="pl-2">RxJs</span>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a [routerLink]="['/ngrx']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-cogs"></i>
                             <span class="pl-2">NgRx</span>
                         </a>
@@ -75,6 +75,6 @@
     </div>
     <div class="toggle-button" [ngClass]="{collapsed: collapsed}" (click)="toggleCollapsed()">
         <i class="fa fa-fw fa-angle-double-{{collapsed?'right':'left'}}"></i>
-        <span class="pl-2">{{ 'Collapse Sidebar'  }}</span>
+        <span class="pl-2">Collapse Sidebar</span>
     </div>
 </nav>
