@@ -1,15 +1,21 @@
-<p (click)="toggleDetail()"><span class="year-bullet">{{history.year}}</span> <span>{{history.title}}</span></p>
-<div *ngIf="showDetail && history.details">
-    <p *ngIf="history.details.summary">{{history.details.summary}}</p>
-    <p>{{history.details.title}}</p>
-    <ul>
-        <li *ngFor="let item of history.details.listItems">
-            <span *ngIf="item.link">
-                <a href="{{item.link}}">{{item.text}}</a>
-            </span>
-            <span *ngIf="!item.link">
-                {{item.text}}
-            </span>
-        </li>
-    </ul>
-</div>
+<app-expander>
+    <span text (click)="toggleDetail()">
+        <span class="year-bullet">{{history.year}}</span>
+        <span>{{history.title}}</span>
+    </span>
+
+    <div fullText class="pl-5">
+        <p *ngIf="history.details.summary">{{history.details.summary}}</p>
+        <p>{{history.details.title}}</p>
+        <ul>
+            <li *ngFor="let item of history.details.listItems">
+                <span *ngIf="item.link">
+                    <a href="{{item.link}}">{{item.text}}</a>
+                </span>
+                <span *ngIf="!item.link">
+                    {{item.text}}
+                </span>
+            </li>
+        </ul>
+    </div>
+</app-expander>
