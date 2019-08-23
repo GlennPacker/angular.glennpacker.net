@@ -7,28 +7,20 @@ import { routerTransition } from '../router.animations';
     animations: [routerTransition()]
 })
 export class HomeComponent implements OnInit {
-    public sliders: Array<any> = [];
+    slides = [
+        { img: 'http://placehold.it/350x150/000000' },
+        { img: 'http://placehold.it/350x150/111111' },
+        { img: 'http://placehold.it/350x150/333333' },
+        { img: 'http://placehold.it/350x150/666666' }
+    ];
+    slideConfig = {
+        'autoplay': true,
+        'slidesToShow': 3,
+        'slidesToScroll': 3,
+    };
 
     constructor() {
-        this.sliders.push(
-            {
-                imagePath: 'assets/images/slider1.jpg',
-                label: 'First slide label',
-                text:
-                    'Nulla vitae elit libero, a pharetra augue mollis interdum.'
-            },
-            {
-                imagePath: 'assets/images/slider2.jpg',
-                label: 'Second slide label',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            },
-            {
-                imagePath: 'assets/images/slider3.jpg',
-                label: 'Third slide label',
-                text:
-                    'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
-            }
-        );
+
     }
 
     ngOnInit() { }
