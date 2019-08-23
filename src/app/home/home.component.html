@@ -30,11 +30,8 @@
         </div>
 
         <div class="col-md-12 pt-3">
-            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
-                <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-                    <img src="{{ slide.img }}" alt="" width="100%">
-                </div>
-            </ngx-slick-carousel>
+            <app-all-qualification-container>
+            </app-all-qualification-container>
         </div>
     </div>
 </div>

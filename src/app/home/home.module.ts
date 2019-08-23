@@ -7,7 +7,7 @@ import { HomeComponent } from './home.component';
 import { HistoriesModule } from '../histories/histories.module';
 import { ComponentsModule } from '../components/components.module';
 import { ClientModule } from '../client/client.module';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { QualificationModule } from '../qualifications/qualification.module';
 
 @NgModule({
     imports: [
@@ -18,7 +18,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
         HistoriesModule,
         ComponentsModule,
         ClientModule,
-        SlickCarouselModule
+        QualificationModule
     ],
     declarations: [
         HomeComponent
