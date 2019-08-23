@@ -1,0 +1,5 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let qualification of qualifications" class="slide">
+        <img src="{{ 'assets/qualifications/' + qualification.img }}" alt="" width="100%">
+    </div>
+</ngx-slick-carousel>
