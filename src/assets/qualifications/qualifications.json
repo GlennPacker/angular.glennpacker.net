@@ -1,0 +1,1100 @@
+[
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": true,
+        "isVue": false,
+        "img": "A-Practical-Start-with-React.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ABetterCSSLESSAndSASS.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "An-AngularJS-Playbook.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angular-getting-started.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angularbestpractices.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angularfronttobackwithwebapi.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "AngularJSBestPractices.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angularjsbestpractices.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angularjslineofbusinessapplications.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angularjswithtypescript.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "AngularTheBigPicture.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "Bootstrap3.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "BowerFundamentals.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "css.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "Getting-Started-with-ES2017-ES8.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "googlemapsapigetstarted.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "HandsOnResponsiveWebDesign.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "html5fromscratch.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "htmlfundamentals.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "IntroductiontoBootstrap.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "introductiontocss.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "IntroductionToPresentationDesign.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "javascriptforcsharpdevelopers.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "jQueryFundamentals.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "jQueryGettingStarted.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "jQueryUI.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "qualifications.json"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "QuickStartToJavaScript.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "QuickStartToJavaScriptVolume2.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": true,
+        "isVue": false,
+        "img": "React-Fundamentals.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": true,
+        "isVue": false,
+        "img": "React-Getting-Started.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "socialmedia.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": true,
+        "isVue": false,
+        "img": "Styling-React-Components.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "testing-angular-js-from-scratch.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "Testing-AngularJS-From-Scratch.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "testingangularjsfromscratch.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "thinkingoutsidetheboxwithcssshapes.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "typescriptfundamentals.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "UserExperienceFirstAndInContext.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": false,
+        "isVue": true,
+        "img": "Vue-js-Getting-Started.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "angular-ngrx"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": true,
+        "isReact": true,
+        "isVue": true,
+        "img": "cypress.jpg"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": false,
+        "isProcess": false,
+        "isAngular": false,
+        "isReact": true,
+        "isVue": false,
+        "img": "Using-React-Hooks.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ASPnet.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ASPNET35Fundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "aspnet4fundamentals.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "aspnet4webforms.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ASPNETMVC3Fundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ASPNETMVC4Fundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "aspnetmvc5fundamentals.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "ASPNETMVCTestingFromScratch.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "bestpracticesinaspnet.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "BestPracticesInASPNETEntitiesValidationAndViewModels.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "Building-a-Full-Stack-App-with-React-and-Express.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "buildingnosqlappswithredis.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "buildingwebappsserviceswithentityframwork.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "c.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "cshaprextensionmethods.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharp4newfeatures.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharpevents.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "CsharpFundamentalspt1.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharpfundamentalswith5.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharpgenerics.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharpinterfaces.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharpprogrammingparadigms.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "csharptipsandtraps.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "defensivecodingincsharp.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "entityframework.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "EntityFrameworkDatabasePerformanceAntiPatterns.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "FakeItEasy.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "gettingstartedwithasynchronusprogramminginnet.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "IntroductionToCSharpAndNET.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "IntroductionToNETTestingWithNUnit.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "IntroductiontoNuGet.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "lessonsfromrealworldnetcodereviews.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "LINQFundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "mockingwithMoq.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "MVC3.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "mvc3fundamentals.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "netmicroorms.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "NETReflectorbyExample.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "NHibernateFundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "nosqlthebigpicture.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "oracledeveloperessentialsdatatypes.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "oracledeveloperessentialstablesandindexes.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "oracledeveloperessentialsviews.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "oracleplsqlfundamentalspt1.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "PHPIntroduction.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "playbyplaymodernizingyourdeployment.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "PracticalIoCWithASPNETMVC4.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "practicallinq.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "practiclareflectioninnet.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "reflector.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "RESTful-Web-Services-with-Node.js-and-Express.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "solidprinciplesofobjectorienteddesign.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "SQLServerManagmentStudiobyExample.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "SqlServerTransactSQLBasicDataModification.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "tsql.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "understandingandeliminatingtechnicaldebt.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "understandingnosql.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "vbnet.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "VBNETFundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "webforms.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": false,
+        "isReact": false,
+        "isVue": false,
+        "img": "webperformance.png"
+    },
+    {
+        "isFrontEnd": true,
+        "isBackEnd": true,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "socialmedia.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "agileestimation.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "agileintherealworld.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "agilerequirementsprocess.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "agileteampracticeswithscrum.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "bestpracticesforrequirementsgathering.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "debuggingtheweb.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "ethicalhackinghackinghackingwebapplications.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "ethicalhackingsessionhijacking.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "LinkedInFundamentals.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "mercurialfundamentals.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "owasptop10webapplicationsecurity.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "scrummasterskills.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "signalraccrosswebanddevices.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "SignalRAcrossWebAndDevices.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "SocialMediaTheBigPicture.jpg"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "testfirstdevelopmentpt1.png"
+    },
+    {
+        "isFrontEnd": false,
+        "isBackEnd": false,
+        "isAngular": false,
+        "isProcess": true,
+        "isReact": false,
+        "isVue": false,
+        "img": "visualstudiocode.png"
+    }
+]
