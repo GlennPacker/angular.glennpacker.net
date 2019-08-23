@@ -14,7 +14,7 @@
             </div>
             <div *ngFor="let tech of client.technologies" class="pl-3">
                 <span *ngIf="tech.link">
-                    <a href="tech.link">{{tech.text}}</a>
+                    <a href="{{tech.link}}">{{tech.text}}</a>
                 </span>
                 <span *ngIf="!tech.link">
                     {{tech.text}}
