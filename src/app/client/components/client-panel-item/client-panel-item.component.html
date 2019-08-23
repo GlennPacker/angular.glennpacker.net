@@ -1,0 +1,23 @@
+<div text>
+    {{ client.name }}
+</div>
+<div fullText>
+    <div class="pl-3 pb-3">
+        {{client.jobTitle}}
+        <span *ngIf="client.when">
+            ({{client.when}})
+        </span>
+        <br />
+        <div class="font-weight-bold pt-3">
+            Technologies:
+        </div>
+        <div *ngFor="let tech of client.technologies" class="pl-3">
+            <span *ngIf="tech.link">
+                <a href="tech.link">{{tech.text}}</a>
+            </span>
+            <span *ngIf="!tech.link">
+                {{tech.text}}
+            </span>
+        </div>
+    </div>
+</div>
