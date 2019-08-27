@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class ExpandingCardComponent {
   @Input() title: string;
   @Input() colour: string;
+  @Input() minHeight = 122;
   showAdditional = false;
 
   toggleAdditional() {
