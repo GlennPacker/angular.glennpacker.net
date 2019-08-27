@@ -6,13 +6,7 @@ import { Client } from '../../client';
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.scss']
 })
-export class ClientsComponent implements OnInit {
+export class ClientsComponent {
   @Input() clients: Client[];
   @Input() error: string;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
 }

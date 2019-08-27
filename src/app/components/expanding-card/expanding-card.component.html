@@ -1,8 +1,16 @@
 <div class="card " (click)="toggleAdditional()">
   <div class="card-header text-white bg-{{colour}} mb-3">
-    {{title}}
+    <div class="row">
+      <div class="col-10">
+        {{title}}
+      </div>
+      <div class="col-2 text-right">
+          <i *ngIf="showAdditional" class="fa fa-chevron-up"></i>
+          <i *ngIf="!showAdditional" class="fa fa-chevron-down"></i>
+      </div>
+    </div>
   </div>
-  <div class="card-body">
+  <div class="card-body pt-1" [ngStyle]="{'min-height.px': minHeight}">
     <p class="card-text">
       <ng-content select="[summary]"></ng-content>
     </p>
