@@ -22,14 +22,14 @@ export class ClientCardComponent {
   colour() {
     const pointer = this.index % 9;
     const mapping = [
-      'primary',
+      'danger',
       'info',
       'success',
       'info',
       'success',
-      'primary',
+      'danger',
       'success',
-      'primary',
+      'danger',
       'info'
     ];
     return mapping[pointer];
