@@ -6,4 +6,4 @@ import { routerTransition } from '../router.animations';
     styleUrls: ['./home.component.scss'],
     animations: [routerTransition()]
 })
-export class HomeComponent { }
+export class HomeComponent {}
