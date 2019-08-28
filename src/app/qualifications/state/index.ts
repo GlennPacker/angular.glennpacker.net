@@ -8,9 +8,29 @@ export interface State extends fromRoot.State {
 
 const getQualificationFeatureState = createFeatureSelector<QualificationState>('qualification');
 
-export const getQualifications = createSelector(
+export const getAll = createSelector(
     getQualificationFeatureState,
     state => state.list
+);
+
+export const getFrontEnd = createSelector(
+    getAll,
+    state => state.filter(q => !q.isBackEnd)
+);
+
+export const getAngular = createSelector(
+    getFrontEnd,
+    state => state.filter(q => q.isAngular)
+);
+
+export const getSPA = createSelector(
+    getFrontEnd,
+    state => state.filter(q => q.isAngular || q.isReact || q.isVue)
+);
+
+export const getBackEnd = createSelector(
+    getAll,
+    state => state.filter(q => q.isBackEnd)
 );
 
 export const getError = createSelector(

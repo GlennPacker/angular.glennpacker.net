@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SpaComponent } from './spa.component';
+import { AngularSummaryComponent } from './angular-summary/angular-summary.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: SpaComponent
+        component: AngularSummaryComponent
     }
 ];
 
@@ -13,4 +13,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class SpaRoutingModule {}
+export class AngularSummaryRoutingModule {}

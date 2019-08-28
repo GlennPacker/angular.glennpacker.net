@@ -15,6 +15,7 @@ import { ComponentsModule } from '../components/components.module';
 import { ClientPanelContainerComponent } from './containers/client-panel-container/client-panel-container.component';
 import { ClientPanelComponent } from './components/client-panel/client-panel.component';
 import { ClientPanelItemComponent } from './components/client-panel-item/client-panel-item.component';
+import { ClientCardComponent } from './components/client-card/client-card.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ClientPanelItemComponent } from './components/client-panel-item/client-
     ClientsContainerComponent,
     ClientPanelContainerComponent,
     ClientPanelComponent,
-    ClientPanelItemComponent
+    ClientPanelItemComponent,
+    ClientCardComponent
   ],
   imports: [
     CommonModule,
