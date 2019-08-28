@@ -13,7 +13,7 @@ const routes: Routes = [
             { path: 'clients', loadChildren: () => import('../client/client.module').then(m => m.ClientModule) },
             { path: 'contact', loadChildren: () => import('../contact/contact.module').then(m => m.ContactModule) },
             { path: 'front-end', loadChildren: () => import('../front-end/front-end.module').then(m => m.FrontEndModule) },
-            { path: 'spa', loadChildren: () => import('../spa/spa-routing.module').then(m => m.SpaRoutingModule) },
+            { path: 'spa', loadChildren: () => import('../spa/spa.module').then(m => m.SpaModule) }
         ]
     }
 ];
@@ -22,4 +22,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class LayoutRoutingModule { }
+export class LayoutRoutingModule {}
