@@ -5,6 +5,7 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout.component';
 import { SidebarComponent } from '../components/sidebar/sidebar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     imports: [
@@ -12,6 +13,6 @@ import { SidebarComponent } from '../components/sidebar/sidebar.component';
         LayoutRoutingModule,
         NgbDropdownModule
     ],
-    declarations: [LayoutComponent, SidebarComponent]
+    declarations: [LayoutComponent, SidebarComponent, FooterComponent]
 })
 export class LayoutModule { }

@@ -1,4 +1,13 @@
 $topnav-background-color: #222;
+.toggle-button.collapsed,
+.sidebar.collapsed {
+    width: auto !important;
+}
+
+.toggle-button.collapsed {
+    padding-right: 35px;
+}
+
 .sidebar {
     border-radius: 0;
     position: fixed;
@@ -185,7 +194,7 @@ $topnav-background-color: #222;
 }
 
 .collapsed {
-    width: 60px;
+    // max-width: 80px;
     span {
         display: none;
     }
