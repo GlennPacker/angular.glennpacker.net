@@ -1,4 +1,4 @@
-<nav class="sidebar" [ngClass]="{sidebarPushRight: isActive, collapsed: collapsed}">
+<nav class="sidebar" [ngClass]="{ sidebarPushRight: isActive, collapsed: collapsed }">
     <div class="list-group">
         <a [routerLink]="['/clients']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-desktop"></i>
@@ -17,7 +17,12 @@
             <span class="pl-2">SPA</span>
         </a>
         <div class="nested-menu">
-            <a class="list-group-item" (click)="addExpandClass('pages')">
+            <a
+                class="list-group-item"
+                (click)="addExpandClass('pages')"
+                [routerLink]="['/angular-summary']"
+                [routerLinkActive]="['router-link-active']"
+            >
                 <i class="fa fa-plus"></i>
                 <span class="pl-2">Angular</span>
             </a>
@@ -73,8 +78,8 @@
             <span class="pl-2">Contact</span>
         </a>
     </div>
-    <div class="toggle-button" [ngClass]="{collapsed: collapsed}" (click)="toggleCollapsed()">
-        <i class="fa fa-fw fa-angle-double-{{collapsed?'right':'left'}}"></i>
+    <div class="toggle-button" [ngClass]="{ collapsed: collapsed }" (click)="toggleCollapsed()">
+        <i class="fa fa-fw fa-angle-double-{{ collapsed ? 'right' : 'left' }}"></i>
         <span class="pl-2">Collapse Sidebar</span>
     </div>
 </nav>

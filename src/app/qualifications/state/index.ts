@@ -18,6 +18,11 @@ export const getFrontEnd = createSelector(
     state => state.filter(q => !q.isBackEnd)
 );
 
+export const getAngular = createSelector(
+    getFrontEnd,
+    state => state.filter(q => q.isAngular)
+);
+
 export const getSPA = createSelector(
     getFrontEnd,
     state => state.filter(q => q.isAngular || q.isReact || q.isVue)
