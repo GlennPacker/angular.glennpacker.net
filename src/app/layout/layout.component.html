@@ -1,7 +1,7 @@
 <app-sidebar (collapsedEvent)="receiveCollapsed($event)"></app-sidebar>
 <section class="main-container full-height" [ngClass]="{collapsed: collapedSideBar}">
     <div class="inner-main-container full-height">
-        <div class="container full-height">
+        <div class="container full-height scroll-container">
             <a [routerLink]="['/home']">
                 <img src="assets/glenn-packer-net-logo.png" />
             </a>

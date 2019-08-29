@@ -28,9 +28,12 @@
     }
 }
 
-
 .inner-main-container {
     height: 100%;
-    overflow-y: auto;
-    padding-bottom: 60px;
+    padding-bottom: 55px;
+}
+
+.scroll-container {
+    overflow-y: auto; 
+    overflow-x:hidden;
 }
