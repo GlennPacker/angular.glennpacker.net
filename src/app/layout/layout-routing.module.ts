@@ -15,7 +15,7 @@ const routes: Routes = [
             { path: 'front-end', loadChildren: () => import('../front-end/front-end.module').then(m => m.FrontEndModule) },
             { path: 'spa', loadChildren: () => import('../spa/spa.module').then(m => m.SpaModule) },
             {
-                path: 'angular-summary',
+                path: 'angular',
                 loadChildren: () => import('../angular-summary/angular-summary.module').then(m => m.AngularSummaryModule)
             }
         ]

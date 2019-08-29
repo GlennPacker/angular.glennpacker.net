@@ -20,7 +20,7 @@
             <a
                 class="list-group-item"
                 (click)="addExpandClass('pages')"
-                [routerLink]="['/angular-summary']"
+                [routerLink]="['/angular']"
                 [routerLinkActive]="['router-link-active']"
             >
                 <i class="fa fa-plus"></i>
@@ -29,43 +29,43 @@
             <li class="nested" [class.expand]="showMenu === 'pages'">
                 <ul class="submenu">
                     <li>
-                        <a [routerLink]="['/module']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/module']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-th-large"></i>
                             <span class="pl-2">Module</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/component']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/component']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-stop"></i>
                             <span class="pl-2">Component</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/directive']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/directive']" [routerLinkActive]="['router-link-active']">
                             <i class="far fa-square"></i>
                             <span class="pl-2">Directive</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/routing']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/routing']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-map-signs"></i>
                             <span class="pl-2">Routing</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/content-projection']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/content-projection']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-cog"></i>
                             <span class="pl-2">Content Projection</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/rxjs']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/rxjs']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-server"></i>
                             <span class="pl-2">RxJs</span>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/ngrx']" [routerLinkActive]="['router-link-active']">
+                        <a [routerLink]="['/angular/ngrx']" [routerLinkActive]="['router-link-active']">
                             <i class="fa fa-cogs"></i>
                             <span class="pl-2">NgRx</span>
                         </a>
