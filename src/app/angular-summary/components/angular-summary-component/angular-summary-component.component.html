@@ -1,1 +1,32 @@
-<p>angular-summary-component works!</p>
+<h3>The Basic Angular Component</h3>
+<p>
+    The angular component is the basic building block of the domain specific DOM. Each component is capable of taking in data and displaying
+    a business specific item.
+</p>
+<div class="row">
+    <div class="col-md-6">
+        <h4>@Component</h4>
+        <p>
+            @Component is where all items for the component are registered.
+        </p>
+        <p>
+            <strong>selector</strong> - This is the name that will be used in the html by other components to display this component. This
+            is optional when it is only available via routing.
+        </p>
+        <p><strong>templateUrl</strong> - The path to the components html markup file.</p>
+        <p><strong>template</strong> - Html markup inline markup. For multi line use back ticks '`'</p>
+        <p><strong>styleUrls</strong> - An array of css style files used by the component</p>
+        <p><strong>styles</strong> - Inline version for all the styles used by the component</p>
+    </div>
+    <div class="col-md-6">
+        <pre>
+            <code>
+    @Component({{'{'}}'
+        selector: 'app-coponent-name',
+        templateUrl: './componentName.component.html',
+        styleUrls: ['./componentName.component.scss']
+`    {{'}'}})
+            </code>
+        </pre>
+    </div>
+</div>
