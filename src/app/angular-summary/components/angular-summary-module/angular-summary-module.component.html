@@ -1,1 +1,44 @@
-<p>angular-summary-module works!</p>
+<h3>The Basic Angular Module</h3>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            The angular module is where all items for the feature should be regisgered.
+        </p>
+        <h4>Declarations</h4>
+        <p>
+            This is where you register each of the components taht make up the feature.
+        </p>
+        <h4>Imports</h4>
+        <p>
+            This is where all services should be registered including routing and ngrx effects and state.
+        </p>
+        <h4>Exports</h4>
+        <p>
+            This section of the module states any components that could be used by another module consuming this resource. For instace witha
+            custom component library you would import each of the components and then export them so anther module can just import the
+            module to access the library.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <pre>
+    <code >
+        import {{'{'}} NgModule {{'}'}} from '@angular/core'; 
+        import {{'{'}} CommonModule {{'}'}} from '@angular/common'; 
+        import {{'{'}} MyComponent {{'}'}} from './components/my-component.component'; 
+        
+        @NgModule({{'{'}} 
+            declarations: [ 
+                MyComponent 
+            ], 
+            imports: [ 
+                CommonModule 
+            ], 
+            exports: [ 
+                MyComponent 
+            ]
+        {{'}'}})
+        export class ComponentsModule {{'{}'}} 
+    </code>
+    </pre>
+    </div>
+</div>
