@@ -1,11 +1,12 @@
 <app-sidebar (collapsedEvent)="receiveCollapsed($event)"></app-sidebar>
 <section class="main-container full-height" [ngClass]="{collapsed: collapedSideBar}">
-    <div class="inner-main-container container full-height">
-        <a [routerLink]="['/home']">
-            <img src="assets/glenn-packer-net-logo.png" />
-        </a>
-        <router-outlet></router-outlet>
-
+    <div class="inner-main-container full-height">
+        <div class="container full-height">
+            <a [routerLink]="['/home']">
+                <img src="assets/glenn-packer-net-logo.png" />
+            </a>
+            <router-outlet></router-outlet>
+        </div>
     </div>
     <div class="footer-container" style="width:100%;">
         <app-footer></app-footer>
