@@ -10,8 +10,8 @@
             @Component is where all items for the component are registered.
         </p>
         <p>
-            <strong>selector</strong> - This is the name that will be used in the html by other components to display this component. This
-            is optional when it is only available via routing.
+            <strong>selector</strong> - This is the name that will be used in the html by other components to display this component. From
+            the example code this would be &lt;app-component-name&gt;&lt;/app-component-name&gt;
         </p>
         <p><strong>templateUrl</strong> - The path to the components html markup file.</p>
         <p><strong>template</strong> - Html markup inline markup. For multi line use back ticks '`'</p>
@@ -28,5 +28,94 @@
 `    {{'}'}})
             </code>
         </pre>
+    </div>
+    <div class="col-md-12">
+        <h4>Components with inputs</h4>
+        <p>
+            The basic component with no inputs has limited use as it has no data (exception being when using Ngrx). Therefore we need to
+            inject or bind data one of the easiest ways to do this is using component input parameters.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <p>The calling or parent component we use a snippet like the below, where we see a component calling 'my-component'.</p>
+        <p>The data inputs have square brackets to inject data into the child component.</p>
+    </div>
+    <div class="col-md-6">
+        <pre>
+            <code>
+                &lt;app-my-component
+                    [foo]="bar"
+                &gt;
+                &lt;/app-my-component&gt;
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-6">
+        <pre>
+            <code>
+        import {{'{'}} Component, Input {{'}'}} from '@angular/core';
+
+        @Component({{'{'}}
+            selector: 'app-my-component',
+            templateUrl: './my-component.component.html'
+        {{'}'}})
+        export class MyComponentComponent {{'{'}}
+            @Input() foo: string;
+        {{'}'}}
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-6">
+        Within the recieving component use the input decorator which is referenced from angular/core.
+    </div>
+    <div class="col-md-12">
+        <h4>Event Emitter and Output decorator</h4>
+        <p>
+            It common for a component to do somthing like a click or updating data. Which the parent or calling component needs to know
+            about. This is where EventEmitter and Output decorator comes in.
+        </p>
+    </div>
+    <div class="col-md-6">
+        The process starts with an injected function from the parent to the child. The '()' indicating the outgoing binding and '$event' the
+        passed data from child to parent.
+    </div>
+    <div class="col-md-6">
+        <pre>
+            <code>
+                &lt;app-my-component
+                    ()="parentFunctionCall($event)"
+                &gt;
+                &lt;/app-my-component&gt;
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-6">
+        <pre>
+            <code>
+        import {{ '{' }} Component, Output, EventEmitter {{ '}' }} from '@angular/core'; 
+        
+        @Component({{ '{' }} 
+            selector: 'app-my-component',
+            templateUrl: './sidebar.component.html', 
+        {{'}'}})  
+        
+        export class MyComponentComponent{{ '{' }}
+            @Output() clickEvent = new EventEmitter&lt;boolean&gt;(); 
+        
+            onClick() {{'{'}}
+                this.clickEvent.emit(true);
+            {{ '}' }}
+        {{ '}' }}
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-6">
+        <p>
+            The child recieves the injected function in a similar way to the input. This time using the '@Output()' decorator. This needs to
+            be a callable method therefore the EventEmitter is used. The type is the data type to be sent.
+        </p>
+        <p>
+            When we need to send out the data or fire the event the emit method is used.
+        </p>
     </div>
 </div>
