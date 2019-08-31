@@ -1,12 +1,12 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+    selector: 'app-card',
+    templateUrl: './card.component.html',
+    styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-  @Input() title: string;
-  @Input() colour: string;
-  @Input() minHeight = 480;
+    @Input() title: string;
+    @Input() colour: string;
+    @Input() minHeight = 480;
 }

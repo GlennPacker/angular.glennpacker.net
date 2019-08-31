@@ -1,1 +1,86 @@
-<p>angular-summary-content-projection works!</p>
+<div class="row">
+    <div class="col-md-12">
+        <h4>Transclusion / Content Projection</h4>
+        <p>
+            Transclusion/Content Projection allows the creation of component where several areas are templates with holes. The holes the
+            calling component can then use to insert markup.
+        </p>
+    </div>
+    <div class="col-md-4">
+        Calling component
+        <pre>
+            <code>
+    &lt;app-my-component
+        title="Card Title"
+    &gt;
+        &lt;h4>Slot Content&lt;/h4>
+        &lt;p>lots more markup.&lt;/p>
+    &lt;\app-my-component&gt;
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-4">
+        Component using transclusion
+        <pre>
+            <code>
+    &lt;div class="card"&gt;
+    &lt;div class="card-header text-white bg-primary mb-3"&gt;
+    {{ '{' }}{{ '{' }}title{{ '}' }}{{ '}' }} 
+    &lt;/div>
+
+    &lt;div class="card-body">
+       <strong> &lt;ng-content>&lt;/ng-content></strong>
+    &lt;/div>
+    &lt;/div>
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-4">
+        Result
+
+        <app-card title="Card title" minHeight="0" colour="primary">
+            <h4>Slot Content</h4>
+            <p>lots more markup.</p>
+        </app-card>
+    </div>
+    <div class="col-md-12">
+        <h4>
+            Multi-slot
+        </h4>
+        <p>
+            It is possible to insert into several places using transclusion. There are several ways to do this using the 'select' attribute.
+        </p>
+        <p>The slots here are named 'title' on the span and 'body' on the div</p>
+    </div>
+    <div class="col-md-6">
+        Calling component
+        <pre>
+            <code>
+        &lt;app-my-component&gt;
+            &lt;span <strong>title</strong>>Card Title&lt;/span>
+        
+            &lt;div <strong>body</strong>&gt;
+                &lt;h4>Slot Content&lt;/h4>
+                &lt;p>lots more markup.&lt;/p>
+            &lt;/div>
+        &lt;\app-my-component&gt;          
+            </code>
+        </pre>
+    </div>
+    <div class="col-md-6">
+        Recieving component's template
+        <pre>
+            <code>
+        &lt;div class="card">
+            &lt;div class="card-header text-white bg-primary mb-3">
+            &lt;ng-content <strong>select="[title]"</strong>>&lt;/ng-content>
+            &lt;/div>
+            
+            &lt;div class="card-body">
+                &lt;ng-content <strong>select="[body]"</strong>>&lt;/ng-content>
+            &lt;/div>
+        &lt;/div>
+            </code>
+        </pre>
+    </div>
+</div>
