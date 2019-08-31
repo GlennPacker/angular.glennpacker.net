@@ -42,15 +42,6 @@
         "isAngular": true,
         "isReact": false,
         "isVue": false,
-        "img": "angularbestpractices.jpg"
-    },
-    {
-        "isFrontEnd": true,
-        "isBackEnd": false,
-        "isProcess": false,
-        "isAngular": true,
-        "isReact": false,
-        "isVue": false,
         "img": "angularfronttobackwithwebapi.jpg"
     },
     {
@@ -61,15 +52,6 @@
         "isReact": false,
         "isVue": false,
         "img": "AngularJSBestPractices.jpg"
-    },
-    {
-        "isFrontEnd": true,
-        "isBackEnd": false,
-        "isProcess": false,
-        "isAngular": true,
-        "isReact": false,
-        "isVue": false,
-        "img": "angularjsbestpractices.png"
     },
     {
         "isFrontEnd": true,
@@ -303,25 +285,7 @@
         "isAngular": true,
         "isReact": false,
         "isVue": false,
-        "img": "testing-angular-js-from-scratch.jpg"
-    },
-    {
-        "isFrontEnd": true,
-        "isBackEnd": false,
-        "isProcess": false,
-        "isAngular": true,
-        "isReact": false,
-        "isVue": false,
         "img": "Testing-AngularJS-From-Scratch.png"
-    },
-    {
-        "isFrontEnd": true,
-        "isBackEnd": false,
-        "isProcess": false,
-        "isAngular": true,
-        "isReact": false,
-        "isVue": false,
-        "img": "testingangularjsfromscratch.png"
     },
     {
         "isFrontEnd": true,
