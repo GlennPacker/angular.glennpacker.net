@@ -105,7 +105,7 @@
         "isAngular": false,
         "isReact": false,
         "isVue": false,
-        "img": "css.png"
+        "img": "css.jpg"
     },
     {
         "isFrontEnd": true,
@@ -438,7 +438,7 @@
         "isProcess": false,
         "isReact": false,
         "isVue": false,
-        "img": "BestPracticesInASPNETEntitiesValidationAndViewModels.png"
+        "img": "BestPracticesInASPNETEntitiesValidationAndViewModels.jpg"
     },
     {
         "isFrontEnd": false,
@@ -573,7 +573,7 @@
         "isProcess": false,
         "isReact": false,
         "isVue": false,
-        "img": "entityframework.png"
+        "img": "entityframework.jpg"
     },
     {
         "isFrontEnd": false,
@@ -843,7 +843,7 @@
         "isProcess": false,
         "isReact": false,
         "isVue": false,
-        "img": "tsql.png"
+        "img": "tsql.jpg"
     },
     {
         "isFrontEnd": false,
@@ -897,7 +897,7 @@
         "isProcess": false,
         "isReact": false,
         "isVue": false,
-        "img": "webperformance.png"
+        "img": "webperformance.jpg"
     },
     {
         "isFrontEnd": true,
@@ -906,7 +906,7 @@
         "isProcess": true,
         "isReact": false,
         "isVue": false,
-        "img": "socialmedia.png"
+        "img": "socialmedia.jpg"
     },
     {
         "isFrontEnd": false,
