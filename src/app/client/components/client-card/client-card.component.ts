@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
 import { Client } from '../../client';
 
 @Component({
@@ -12,7 +13,7 @@ export class ClientCardComponent {
 
   constructor() { }
 
-  BackEndTech(client: Client) {
+  BackEndTech() {
     return this.client.technologies
       .filter(r => r.isBackEnd)
       .map(c => c.text)

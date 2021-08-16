@@ -4,7 +4,7 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-4 pb-3" *ngFor="let client of clients; let i = index">
+    <div class="col-sm-4 pb-3" *ngFor="let client of clients; let i = index" >
         <app-client-card
             [client]="client"
             [index]="i"

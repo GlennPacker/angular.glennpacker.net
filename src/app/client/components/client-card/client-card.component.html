@@ -1,34 +1,34 @@
 <app-expanding-card 
-            [title]="client.name" 
-            [colour]="colour(i)"
-        >
-            <div summary>
-               {{client.summary}}
-            </div>
+    [title]="client.name" 
+    [colour]="colour()"
+>
+    <div summary>
+        {{client.summary}}
+    </div>
 
-            <div additional>
-                <p *ngIf="client.projectStyle"><strong>{{client.projectStyle}}</strong></p>
-                
-                <p *ngIf="hasFrontEnd()">
-                    <strong>Front End</strong>
-                    <br />
-                    {{FrontEndTech()}}
-                </p>
-                
-                <p *ngIf="hasBackEnd()">
-                    <strong>Back End</strong>
-                    <br />
-                    {{BackEndTech()}}
-                </p>  
-                
-                <p *ngIf="client.testTech">
-                        <strong>TDD - Test Driven Development</strong>
-                        <br />
-                        {{TestTech()}}
-                    </p>  
+    <div additional>
+        <p *ngIf="client.projectStyle"><strong>{{client.projectStyle}}</strong></p>
+        
+        <p *ngIf="hasFrontEnd()">
+            <strong>Front End</strong>
+            <br />
+            {{FrontEndTech()}}
+        </p>
+        
+        <p *ngIf="hasBackEnd()">
+            <strong>Back End</strong>
+            <br />
+            {{BackEndTech()}}
+        </p>  
+        
+        <p *ngIf="client.testTech">
+                <strong>TDD - Test Driven Development</strong>
+                <br />
+                {{TestTech()}}
+            </p>  
 
-                <p>
-                    {{client.when}}
-                </p>
-            </div>
-        </app-expanding-card>
+        <p>
+            {{client.when}}
+        </p>
+    </div>
+</app-expanding-card>
