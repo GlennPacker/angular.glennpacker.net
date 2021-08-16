@@ -5,11 +5,4 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './angular-summary-component.component.html',
   styleUrls: ['./angular-summary-component.component.scss']
 })
-export class AngularSummaryComponentComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class AngularSummaryComponentComponent {}

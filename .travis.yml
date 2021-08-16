@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-  - '9'
-  - '10'
+  - '14'
 
 install:
   - npm install
 
 script:
-  - npm run test
+  - npm run test-headless
 
 cache:
   directories:
