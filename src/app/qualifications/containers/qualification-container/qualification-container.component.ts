@@ -1,9 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Qualification } from '../../qualification';
 import * as fromQualification from '../../state';
 import * as qualificationActions from '../../state/qualification.actions';
-import { Observable } from 'rxjs';
+
+import { Component, Input, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
+
+import { Observable } from 'rxjs';
+import { Qualification } from '../../qualification';
 
 @Component({
     selector: 'app-qualification-container',

@@ -1,12 +1,12 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NgbCarouselModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { NgbAlertModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
-import { HistoriesModule } from '../histories/histories.module';
-import { ComponentsModule } from '../components/components.module';
 import { ClientModule } from '../client/client.module';
+import { CommonModule } from '@angular/common';
+import { ComponentsModule } from '../components/components.module';
+import { HistoriesModule } from '../histories/histories.module';
+import { HomeComponent } from './home.component';
+import { HomeRoutingModule } from './home-routing.module';
 import { QualificationModule } from '../qualifications/qualification.module';
 
 @NgModule({
@@ -22,6 +22,9 @@ import { QualificationModule } from '../qualifications/qualification.module';
     ],
     declarations: [
         HomeComponent
-    ]
+    ],
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
 })
 export class HomeModule { }

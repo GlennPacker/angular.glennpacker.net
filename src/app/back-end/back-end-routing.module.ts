@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { BackEndComponent } from './back-end.component';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
+import { BackEndComponent } from './back-end.component';
 
 const routes: Routes = [
     {
@@ -11,7 +11,10 @@ const routes: Routes = [
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+    exports: [RouterModule],
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
 })
 export class BackEndRoutingModule {
 }
