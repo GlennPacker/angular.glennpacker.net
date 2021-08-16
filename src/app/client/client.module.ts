@@ -1,22 +1,18 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ClientRoutingModule } from './client-routing.module';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
-// Components
+import { ClientCardComponent } from './components/client-card/client-card.component';
+import { ClientEffects } from './state/client.effects';
+import { ClientPanelComponent } from './components/client-panel/client-panel.component';
+import { ClientPanelContainerComponent } from './containers/client-panel-container/client-panel-container.component';
+import { ClientPanelItemComponent } from './components/client-panel-item/client-panel-item.component';
+import { ClientRoutingModule } from './client-routing.module';
 import { ClientsComponent } from './components/clients/clients.component';
 import { ClientsContainerComponent } from './containers/clients-container/clients-container.component';
-
-// NgRx
-import { reducer } from './state/client.reducer';
-import { StoreModule } from '@ngrx/store';
-import { ClientEffects } from './state/client.effects';
-import { EffectsModule } from '@ngrx/effects';
+import { CommonModule } from '@angular/common';
 import { ComponentsModule } from '../components/components.module';
-import { ClientPanelContainerComponent } from './containers/client-panel-container/client-panel-container.component';
-import { ClientPanelComponent } from './components/client-panel/client-panel.component';
-import { ClientPanelItemComponent } from './components/client-panel-item/client-panel-item.component';
-import { ClientCardComponent } from './components/client-card/client-card.component';
-
+import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
+import { reducer } from './state/client.reducer';
 
 @NgModule({
   declarations: [
@@ -36,6 +32,9 @@ import { ClientCardComponent } from './components/client-card/client-card.compon
   ],
   exports: [
     ClientPanelContainerComponent
-  ]
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
 })
 export class ClientModule { }

@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
-import { LayoutRoutingModule } from './layout-routing.module';
-import { LayoutComponent } from './layout.component';
-import { SidebarComponent } from '../components/sidebar/sidebar.component';
+import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from './layout.component';
+import { LayoutRoutingModule } from './layout-routing.module';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { SidebarComponent } from '../components/sidebar/sidebar.component';
 
 @NgModule({
     imports: [
@@ -13,6 +13,9 @@ import { FooterComponent } from './footer/footer.component';
         LayoutRoutingModule,
         NgbDropdownModule
     ],
-    declarations: [LayoutComponent, SidebarComponent, FooterComponent]
+    declarations: [LayoutComponent, SidebarComponent, FooterComponent],
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
 })
 export class LayoutModule { }

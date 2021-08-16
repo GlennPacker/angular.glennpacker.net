@@ -1,12 +1,13 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+
 import { CommonModule } from '@angular/common';
-import { QualificationContainerComponent } from './containers/qualification-container/qualification-container.component';
-import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
-import { reducer } from './state/qualification.reducer';
+import { QualificationCarouselComponent } from './components/qualification-carousel/qualification-carousel.component';
+import { QualificationContainerComponent } from './containers/qualification-container/qualification-container.component';
 import { QualificationEffects } from './state/qualification.effects';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { QualificationCarouselComponent } from './components/qualification-carousel/qualification-carousel.component';
+import { StoreModule } from '@ngrx/store';
+import { reducer } from './state/qualification.reducer';
 
 @NgModule({
     declarations: [QualificationContainerComponent, QualificationCarouselComponent],
@@ -16,6 +17,9 @@ import { QualificationCarouselComponent } from './components/qualification-carou
         StoreModule.forFeature('qualification', reducer),
         EffectsModule.forFeature([QualificationEffects])
     ],
-    exports: [QualificationContainerComponent]
+    exports: [QualificationContainerComponent],
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
 })
 export class QualificationModule {}
