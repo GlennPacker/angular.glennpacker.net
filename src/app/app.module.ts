@@ -1,4 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -24,7 +25,7 @@ import { StoreModule } from '@ngrx/store';
         EffectsModule.forRoot([])
     ],
     declarations: [AppComponent],
-    providers: [],
+    providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
     bootstrap: [AppComponent],
     schemas: [
         CUSTOM_ELEMENTS_SCHEMA
